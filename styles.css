@@ -1,0 +1,197 @@
+body {
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    margin: 0;
+    color: #40514e;
+}
+
+
+hr {
+    border:none;
+    border-top: 12px dotted #66bfbf;
+    width: 6%;
+    margin: 100px auto;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    color: #11999e;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3, a {
+    color: #11999e;
+}
+
+p {
+    line-height: 2;
+}
+
+#top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 75px;
+}
+
+#bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.top-container {
+    color: #66bfbf;
+}
+
+.top-container {
+    background-color: #dbf6e9;
+    position: relative;
+    padding-top: 100px;
+}
+
+.top-container h1 {
+    margin-top: 50px;
+   /* display: inline; */
+   font-family: 'Sacramento', cursive;
+   font-size: 5.625rem; /* 100% average size is 16px = 1 em, 562.5 % results in 90px. rem doesn't inherit unlike % and em. */
+   margin-bottom: 0px;
+   margin-top: 50px;
+   line-height: 2;
+}
+
+.top-container h2 {
+    font-weight: normal;
+}
+
+.web {
+    text-decoration: underline;
+}
+
+.middle-container {
+    padding: 50px 0 50px;
+    background-color: #ddffbc;
+}
+
+#sarahnme{
+    width: 400px;
+    height: 400px;
+}
+
+.profile p{
+    text-align: center;
+    width: 30%;
+    margin: auto;
+}
+
+.profile h2 {
+    margin-top: 25px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+}
+
+.yt-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;;
+}
+
+.nfl-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;;
+}
+
+.bottom-container {
+    background-color: #66bfbf;
+    padding: 50px 0 20px;
+}
+
+.bottom-container a {
+    text-decoration: none;
+    color: #ddffbc;
+    font: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+}
+
+.bottom-container a:hover {
+    color: #eaf6fe;
+}
+
+.bottom-container p {
+    color: white;
+    padding: 20px 0 0;
+    font-size: 0.75rem;
+}
+
+.contact-me h3 {
+    margin: 0px 0px 25px 0px;
+}
+.contact-me p {
+    text-align: center;
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.Contact-Me-Btn {
+    background: #11CDD4;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -webkit-gradient(to bottom, #11CDD4, #11999E);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    font-weight: 100;
+    padding: 20px;
+    -webkit-box-shadow: 1px 1px 5px 0 #000000;
+    -moz-box-shadow: 1px 1px 5px 0 #000000;
+    box-shadow: 1px 1px 5px 0 #000000;
+    text-shadow: 1px 1px 5px #000000;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .Contact-Me-Btn:hover {
+    border: solid #337FED 1px;
+    background: #30E3CB;
+    background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -webkit-gradient(to bottom, #30E3CB, #2BC4AD);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+
+/*
+CSS clear property which cancels out the floating of textto either side by setting the clear to the side it was floated.
+.yt-row-description {
+    clear:left;
+}
+
+.nfl-row-description {
+    clear:right;
+}
+*/
+/*.main h1 {
+    margin-block-start: 0em;
+}*/
